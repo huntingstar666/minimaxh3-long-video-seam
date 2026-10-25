@@ -8,6 +8,8 @@
 
 技能本体在另一个仓库：<https://github.com/huntingstar666/swap-skill-v2.0>
 
+**Agent 配置入口：** 把两个仓库地址交给 agent，并要求它先读 [AGENT_SETUP.md](AGENT_SETUP.md)；节点包清单见 [node-packs.json](node-packs.json)，模型清单见 [models.json](models.json)。
+
 ## 1. 实测环境
 
 以下环境已完成过《梦的翅膀受了伤》699 帧人物替换 + seam 分组实测：

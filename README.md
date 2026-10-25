@@ -61,6 +61,21 @@ MiniMax H3 Load AV Segment Latent
 
 依赖的开源节点包、模型和工作流见 [DEPENDENCIES.md](DEPENDENCIES.md)。
 
+### 给 agent 的安装入口
+
+如果要把技能和环境交给 agent 配齐，直接把这两个地址给它：
+
+```text
+https://github.com/huntingstar666/swap-skill-v2.0
+https://github.com/huntingstar666/minimaxh3-long-video-seam
+```
+
+本仓库提供：
+
+- [AGENT_SETUP.md](AGENT_SETUP.md)：安装步骤、边界、验收清单
+- [node-packs.json](node-packs.json)：节点包/仓库/实测 commit/节点名
+- [models.json](models.json)：模型目标路径、用途、许可提醒；下载源需用户确认
+
 ## 与 person-swap-v2 配合使用
 
 `person-swap-v2` 的 seam 路径使用：
@@ -142,6 +157,9 @@ example_workflows/
 ├── example_workflows/      # 上游完整导演台示例
 ├── tests/
 ├── DEPENDENCIES.md
+├── AGENT_SETUP.md
+├── models.json
+├── node-packs.json
 ├── FORK_NOTICE.md
 └── LICENSE
 ```

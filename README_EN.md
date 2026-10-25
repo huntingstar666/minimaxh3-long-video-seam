@@ -61,6 +61,21 @@ MiniMax H3 Load AV Segment Latent
 
 Open-source node packs, models and workflows are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 
+### Agent setup entry
+
+To have an agent install the full environment, give it these two URLs:
+
+```text
+https://github.com/huntingstar666/swap-skill-v2.0
+https://github.com/huntingstar666/minimaxh3-long-video-seam
+```
+
+This repository provides:
+
+- [AGENT_SETUP.md](AGENT_SETUP.md): installation steps, boundaries and acceptance checklist
+- [node-packs.json](node-packs.json): node packs, repos, tested commits and node names
+- [models.json](models.json): model target paths, usage and license notes; download sources require user confirmation
+
 ## Use with person-swap-v2
 
 The `person-swap-v2` seam path uses:
@@ -142,6 +157,9 @@ example_workflows/
 ├── example_workflows/
 ├── tests/
 ├── DEPENDENCIES.md
+├── AGENT_SETUP.md
+├── models.json
+├── node-packs.json
 ├── FORK_NOTICE.md
 └── LICENSE
 ```
